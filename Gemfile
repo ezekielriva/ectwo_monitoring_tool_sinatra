@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'dotenv'
 
 group :development do
+  gem 'dotenv'
   gem "capistrano", "~> 3.4"
 end
